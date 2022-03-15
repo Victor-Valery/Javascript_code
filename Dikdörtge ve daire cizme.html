@@ -1,6 +1,7 @@
 <html>
 <body>
 <canvas id="canvas" width="400" height="250" style="border:1px solid #d3d3d3;"></canvas>
+ <!-- canvas bizim calisma alanimizdir -->
 
 <script>
 // Dikdörtgen çiz
@@ -16,7 +17,7 @@ const ctx = canvas.getContext('2d');
 // Elips çiz
 ctx.beginPath();
 // void ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle [, anticlockwise]);
-ctx.ellipse(300, 100, 50, 75, Math.PI / 4, 0, 2 * Math.PI);
+ctx.ellipse(300, 100, 80, 80, Math.PI / 4, 0, 2 * Math.PI);
 ctx.stroke();
 
 // Elipsin yansimasini çiz
